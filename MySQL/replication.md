@@ -1,6 +1,7 @@
-##### 一、MySQL复制原理及流程
+##### MySQL复制原理及流程
 
 博客：http://www.cnblogs.com/jirglt/p/3549047.html
+http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html
 
 1. 概念
 
@@ -46,7 +47,6 @@
     - SQL线程，复制执行中继日志。
 
 
-
 ##### 二、MyiSAM与InnoDB的区别
 
 1. InnoDB支持事务，而MyISAM不支持事务
@@ -58,6 +58,7 @@
 4. InnoDB支持外键，而MyISAM不支持
 
 5. InnoDB不支持全文索引，而MyISAM支持。
+
 
 ##### 三、InnoDB的事务与日志实现方式
 
